@@ -102,9 +102,9 @@ keyboard.keymap = [
 
         KC.Q,    KC.W,    KC.E,    KC.R,    KC.T,                        KC.Y,    KC.U,    KC.I,    KC.O,   KC.P,\
 
-        KC.A,    KC.S,    KC.D,    KC.F,    KC.G,                        KC.H,    KC.J,    KC.K,    KC.L, KC.SCLN,\
+        KC.A,    KC.S,    KC.D,    KC.F,    KC.G,                        KC.H,    KC.J,    KC.K,    KC.L, KC.BSPC,\
 
-        KC.Z,    KC.X,    KC.C,    KC.V,    KC.B,                        KC.N,    KC.M, KC.COMM,  KC.DOT, KC.SLSH,\
+        KC.Z,    KC.X,    KC.C,    KC.V,    KC.B,                        KC.N,    KC.M, KC.COMM,  KC.DOT, KC.ESC,\
 
                                    LOWER,   KC.SPACE,                    KC.ENT,   RAISE
 
@@ -118,7 +118,7 @@ keyboard.keymap = [
 
         KC.LCTL(KC.Z),  KC.LCTL(KC.X),   KC.LCTL(KC.C),   KC.LCTL(KC.V),   KC.END,                          KC.AUDIO_VOL_DOWN,   KC.AUDIO_MUTE,   KC.DOWN,   KC.NO,    KC.LCTL(KC.SLSH),\
  
-                                                          KC.NO,           KC.SPACE,                        KC.ENT,              RAISE
+                                                          KC.NO,           KC.SPACE,                        KC.LCTL,              RAISE
 
     ],
 
@@ -130,7 +130,7 @@ keyboard.keymap = [
 
         KC.F12,    KC.F11,  KC.F10, KC.NO,  KC.COLON,                       KC.UNDS, KC.PLUS, KC.LBRC, KC.RBRC, KC.BSLS,\
 
-                                    LOWER,  KC.SPACE,                       KC.ENT,   RAISE
+                                    LOWER,  KC.RSFT,                       KC.ENT,   RAISE
 
     ]
 
