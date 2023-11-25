@@ -114,7 +114,7 @@ keyboard.keymap = [
 
         KC.N1,          KC.N2,           KC.N3,           KC.N4,           KC.N5,                           KC.N6,               KC.N7,           KC.N8,     KC.N9,    KC.N0,\
 
-        KC.LCTL(KC.A),  KC.LCTL(KC.S),   KC.NO,           SEL_LINE,        KC.HOME,                         KC.AUDIO_VOL_UP,     KC.LEFT,         KC.UP,     KC.RIGHT, KC.NO,\
+        KC.LCTL(KC.A),  KC.LCTL(KC.S),   KC.NO,           SEL_LINE,        KC.HOME,                         KC.AUDIO_VOL_UP,     KC.LEFT,         KC.UP,     KC.RIGHT, KC.DEL,\
 
         KC.LCTL(KC.Z),  KC.LCTL(KC.X),   KC.LCTL(KC.C),   KC.LCTL(KC.V),   KC.END,                          KC.AUDIO_VOL_DOWN,   KC.AUDIO_MUTE,   KC.DOWN,   KC.NO,    KC.LCTL(KC.SLSH),\
  
@@ -124,11 +124,11 @@ keyboard.keymap = [
 
     [  #RAISE
 
-        KC.EXLM,   KC.AT, KC.HASH,  KC.DLR, KC.PERC,                        KC.CIRC, KC.AMPR, KC.ASTR, KC.LPRN, KC.DEL,\
+        KC.EXLM,   KC.AT, KC.HASH,  KC.DLR, KC.PERC,                        KC.CIRC, KC.AMPR, KC.ASTR, KC.LPRN, KC.RPRN,\
 
-        KC.F2,     KC.F5,   KC.F9,  KC.NO,  KC.SLASH,                       KC.MINS,  KC.EQL, KC.LCBR, KC.RCBR, KC.PIPE,\
+        KC.F2,     KC.F5,   KC.F9,  KC.NO,  KC.SLASH,                       KC.UNDS,  KC.EQL, KC.LCBR, KC.RCBR, KC.PIPE,\
 
-        KC.F12,    KC.F11,  KC.F10, KC.NO,  KC.COLON,                       KC.UNDS, KC.PLUS, KC.LBRC, KC.RBRC, KC.BSLS,\
+        KC.F12,    KC.F11,  KC.F10, KC.NO,  KC.COLON,                       KC.MINS, KC.PLUS, KC.LBRC, KC.RBRC, KC.BSLS,\
 
                                     LOWER,  KC.RSFT,                       KC.ENT,   RAISE
 
