@@ -118,7 +118,7 @@ keyboard.keymap = [
 
         KC.LCTL(KC.Z),  KC.LCTL(KC.X),   KC.LCTL(KC.C),   KC.LCTL(KC.V),   KC.END,                          KC.AUDIO_VOL_DOWN,   KC.AUDIO_MUTE,   KC.DOWN,   KC.NO,    KC.LCTL(KC.SLSH),\
  
-                                                          KC.NO,           KC.SPACE,                        KC.LCTL,              RAISE
+                                                          KC.RSFT,           KC.SPACE,                        KC.LCTL,              RAISE
 
     ],
 
