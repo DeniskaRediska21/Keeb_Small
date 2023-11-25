@@ -130,7 +130,7 @@ keyboard.keymap = [
 
         KC.F12,    KC.F11,  KC.F10, KC.NO,  KC.COLON,                       KC.MINS, KC.PLUS, KC.LBRC, KC.RBRC, KC.BSLS,\
 
-                                    LOWER,  KC.RSFT,                       KC.ENT,   RAISE
+                                    LOWER,  KC.RSFT,                       KC.ENT,   KC.LCTL
 
     ]
 
