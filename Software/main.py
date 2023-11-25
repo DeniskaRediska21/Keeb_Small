@@ -116,9 +116,9 @@ keyboard.keymap = [
 
         KC.LCTL(KC.A),  KC.LCTL(KC.S),   KC.NO,           SEL_LINE,        KC.HOME,                         KC.AUDIO_VOL_UP,     KC.LEFT,         KC.UP,     KC.RIGHT, KC.DEL,\
 
-        KC.LCTL(KC.Z),  KC.LCTL(KC.X),   KC.LCTL(KC.C),   KC.LCTL(KC.V),   KC.END,                          KC.AUDIO_VOL_DOWN,   KC.AUDIO_MUTE,   KC.DOWN,   KC.NO,    KC.LCTL(KC.SLSH),\
+        KC.LCTL(KC.Z),  KC.LCTL(KC.X),   KC.LCTL(KC.C),   KC.LCTL(KC.V),   KC.END,                          KC.AUDIO_VOL_DOWN,   KC.QUOT,   KC.DOWN,   KC.NO,    KC.SLSH,\
  
-                                                          KC.RSFT,           KC.SPACE,                        KC.LCTL,              RAISE
+                                                          KC.RSFT,           KC.RALT,                        KC.TAB,              KC.LCTL
 
     ],
 
@@ -130,7 +130,7 @@ keyboard.keymap = [
 
         KC.F12,    KC.F11,  KC.F10, KC.NO,  KC.COLON,                       KC.MINS, KC.PLUS, KC.LBRC, KC.RBRC, KC.BSLS,\
 
-                                    LOWER,  KC.RSFT,                       KC.ENT,   KC.LCTL
+                          KC.RSFT,           KC.RALT,                        KC.TAB,              KC.LCTL
 
     ]
 
