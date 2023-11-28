@@ -126,9 +126,9 @@ keyboard.keymap = [
 
         KC.EXLM,   KC.AT, KC.HASH,  KC.DLR, KC.PERC,                        KC.CIRC, KC.AMPR, KC.ASTR, KC.LPRN, KC.RPRN,\
 
-        KC.F2,     KC.F5,   KC.F9,  KC.NO,  KC.SLASH,                       KC.UNDS,  KC.EQL, KC.LCBR, KC.RCBR, KC.PIPE,\
+        KC.F2,     KC.F5,   KC.F9,  KC.QUOT,  KC.SCLN,                       KC.UNDS,  KC.EQL, KC.LCBR, KC.RCBR, KC.PIPE,\
 
-        KC.F12,    KC.F11,  KC.F10, KC.NO,  KC.COLON,                       KC.MINS, KC.PLUS, KC.LBRC, KC.RBRC, KC.BSLS,\
+        KC.F12,    KC.F11,  KC.F10, KC.DQUO,  KC.COLON,                       KC.MINS, KC.PLUS, KC.LBRC, KC.RBRC, KC.BSLS,\
 
                          KC.RSFT,           KC.RALT,                        KC.TAB,              KC.LCTL
 
