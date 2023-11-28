@@ -114,11 +114,11 @@ keyboard.keymap = [
 
         KC.N1,          KC.N2,           KC.N3,           KC.N4,           KC.N5,                           KC.N6,               KC.N7,           KC.N8,     KC.N9,    KC.N0,\
 
-        KC.LCTL(KC.A),  KC.LCTL(KC.S),   KC.NO,           SEL_LINE,        KC.HOME,                         KC.MUTE,     KC.LEFT,         KC.UP,     KC.RIGHT, KC.DEL,\
+        KC.LCTL(KC.A),  KC.LCTL(KC.S),   KC.LCTL(KC.RALT(KC.T)),           SEL_LINE,        KC.HOME,                         KC.MUTE,     KC.LEFT,         KC.UP,     KC.RIGHT, KC.DEL,\
 
-        KC.LCTL(KC.Z),  KC.LCTL(KC.X),   KC.LCTL(KC.C),   KC.LCTL(KC.V),   KC.END,                          KC.GRAVE,   KC.QUOT,   KC.DOWN,   KC.NO,    KC.SLSH,\
+        KC.LCTL(KC.Z),  KC.LCTL(KC.X),   KC.LCTL(KC.INSERT),   KC.LSFT(KC.INSERT),   KC.END,                          KC.GRAVE,   KC.QUOT,   KC.DOWN,   KC.NO,    KC.SLSH,\
  
-                                                          KC.RSFT,           KC.RALT,                        KC.TAB,              KC.LCTL
+                                                          KC.LSFT,           KC.RALT,                        KC.TAB,              KC.LCTL
 
     ],
 
@@ -130,7 +130,7 @@ keyboard.keymap = [
 
         KC.F12,    KC.F11,  KC.F10, KC.NO,  KC.COLON,                       KC.MINS, KC.PLUS, KC.LBRC, KC.RBRC, KC.BSLS,\
 
-                          KC.RSFT,           KC.RALT,                        KC.TAB,              KC.LCTL
+                         KC.RSFT,           KC.RALT,                        KC.TAB,              KC.LCTL
 
     ]
 
