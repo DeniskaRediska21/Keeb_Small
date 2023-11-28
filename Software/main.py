@@ -114,9 +114,9 @@ keyboard.keymap = [
 
         KC.N1,          KC.N2,           KC.N3,           KC.N4,           KC.N5,                           KC.N6,               KC.N7,           KC.N8,     KC.N9,    KC.N0,\
 
-        KC.LCTL(KC.A),  KC.LCTL(KC.S),   KC.LCTL(KC.RALT(KC.T)),           SEL_LINE,        KC.HOME,                         KC.MUTE,     KC.LEFT,         KC.UP,     KC.RIGHT, KC.DEL,\
+        KC.LCTL(KC.A),  KC.LCTL(KC.S),   KC.LCTL(KC.RALT(KC.T)),           KC.QUES,        KC.LCTL(KC.V),                         KC.MUTE,     KC.LEFT,         KC.UP,     KC.RIGHT, KC.DEL,\
 
-        KC.LCTL(KC.Z),  KC.LCTL(KC.X),   KC.LCTL(KC.INSERT),   KC.LSFT(KC.INSERT),   KC.END,                          KC.GRAVE,   KC.QUOT,   KC.DOWN,   KC.NO,    KC.SLSH,\
+        KC.LCTL(KC.Z),  KC.LCTL(KC.X),   KC.LCTL(KC.INSERT),   KC.LSFT(KC.INSERT),   KC.LCTL(KC.C),                          KC.GRAVE,   KC.LABK,   KC.DOWN,   KC.RABK,    KC.SLSH,\
  
                                                           KC.LSFT,           KC.RALT,                        KC.TAB,              KC.LCTL
 
