@@ -52,7 +52,7 @@ data_pin2 = board.GP0 if split_side == SplitSide.LEFT else board.GP1
 
 split = Split(
 
-    split_side=split_side,
+    #split_side=split_side,
 
     split_type=SplitType.UART,
 
